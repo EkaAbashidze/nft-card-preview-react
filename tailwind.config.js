@@ -3,8 +3,18 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      height: {
+        596: "596px",
+        302: "302px",
+        33: "33px",
+      },
+      width: {
+        350: "350px",
+        302: "302px",
+        33: "33px",
+      },
       colors: {
-        blue: "hsl(215, 51%, 70%)",
+        softblue: "hsl(215, 51%, 70%)",
         cyan: "hsl(178, 100%, 50%)",
         mainbg: "hsl(217, 54%, 11%)",
         cardbg: "hsl(216, 50%, 16%)",
